@@ -1,7 +1,5 @@
-nome = input("Digite seu nome:")
-idade = int( input("Digite sua idade:") )
-peso = float( input("Digite seu peso:") )
+nome = input('Digite seu nome:')
+idade = input('Digite sua idade:')
+peso = input('Digite seu peso:')
 
-print(nome)
-print(type(idade))
-print(type(peso))
+print(nome, idade, peso)
