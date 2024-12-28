@@ -19,23 +19,34 @@ while True:
 
 #exemplo sem repeticoes
 
-valor1 = int(input('Digite um valor:'))
-valor2 = int(input('Digite outro valor:'))
-resposta = valor1 + valor2
+    valor1 = int(input('Digite um valor:'))
+    valor2 = int(input('Digite outro valor:'))
+    resposta = valor1 + valor2
 # print('a soma entre', valor1, 'e', valor2, 'vale', resposta)
-print('A soma entre {} e {} vale {}'.format(valor1, valor2, resposta))
+    print('A soma entre {} e {} vale {}'.format(valor1, valor2, resposta))
 
 
 # ver o tipo (type) do valor que for inserido (input)
-valor = (input('Digite algo:'))
-print(type(valor))
+    valor = (input('Digite algo:'))
+    print(type(valor))
 
 # métodos de teste de tipo
-valor = (input('Digite algo:'))
-print('O tipo primitivo desse valor é', type(valor))
-print('Só tem espacos?', valor.isspace())
-print('É um número?', valor.isnumeric())
-print('É alabétivo?', valor.isalpha())
-print('É alfanumérico?', valor.isalnum())
-print('Está em maiúscula?', valor.isupper())
-print('Está em minúscula?', valor.islower())
+    valor = (input('Digite algo:'))
+    print('O tipo primitivo desse valor é', type(valor))
+    print('Só tem espacos?', valor.isspace())
+    print('É um número?', valor.isnumeric())
+    print('É alabétivo?', valor.isalpha())
+    print('É alfanumérico?', valor.isalnum())
+    print('Está em maiúscula?', valor.isupper())
+    print('Está em minúscula?', valor.islower())
+
+# operadores aritméticos
+    valor1 = int(input('Insirir valor:'))
+    valor2 = int(input('Insirir outro valor:'))
+    s= valor1 + valor2
+    m = valor1 * valor2
+    d = valor1 / valor2
+    di = valor1 // valor2
+    e = valor1 ** valor2
+    print('A soma {}, o produto é {} e a divisão é {}'.format(s,m,d))
+    print('Divisão inteora {} e a potência {}'.format(di,e))
