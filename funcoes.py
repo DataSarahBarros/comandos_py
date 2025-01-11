@@ -41,8 +41,8 @@ while True:
     print('Está em minúscula?', valor.islower())
 
 # operadores aritméticos
-    valor1 = int(input('Insirir valor:'))
-    valor2 = int(input('Insirir outro valor:'))
+    valor1 = int(input('Inserir valor:'))
+    valor2 = int(input('Inserir outro valor:'))
     s= valor1 + valor2
     m = valor1 * valor2
     d = valor1 / valor2
