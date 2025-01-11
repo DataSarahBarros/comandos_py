@@ -1,4 +1,4 @@
-# indice de uma lista sempre começa por 0
+# indice de uma lista sempre começa por 0 e dentro de cochetes []
 
 lista_numeros = [1,2,3]
 
@@ -6,7 +6,7 @@ lista_numeros[0] = 5
 
 # listas podem ter diferentes dado
 # numeros = [1, 2, 3]
-# strings = ['João', 'Sarh', 'Samuel']
+# strings = ['João', 'Sarah', 'Samuel']
 # decimais = [10.8, 15.2, 33.3]
 
 print(lista_numeros[0])
