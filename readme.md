@@ -48,9 +48,7 @@ input sempre retorna tipo string (type str)
 *str - carácteres/strings* = 'Hello', '7.0', ''
 *f* - inserir valores de variáveis diretamente dentro de uma string. Indica que a string é uma f-string;. Exemplo:
 
-nome = "Alice"
-idade = 30
-print(f"Olá, {nome}! Você tem {idade} anos.")
+varável = str (input('qualquer coisa:'))
 
 # variáveis, objetos, atributos, métodos, funções, classes e instâncias
 
