@@ -108,4 +108,4 @@ frase.split() = split = dividir, dividir os espaços, cada palvra recebe indexa�
 # Junção
 
 Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] vídeo [lista 3] python [lista 4]** usa-se
-'-'.join(frase) = juntar as listas com o caracter '-'  *Curso-Em-vídeo-python* 
+'-'.join(frase) = juntar as listas com o caracter '-'  *Curso-Em-vídeo-python*
