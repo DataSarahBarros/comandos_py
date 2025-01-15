@@ -40,6 +40,8 @@ nome = input(“Digite seu nome:”)
 
 input sempre retorna tipo string (type str)
 
+print("""um texto com quebra de linha, ao usar tres aspas printa exatamente assim""")
+
 
 # tipos primitivos, quatro principais
 *int - inteiro* = 7, -4, 0, 9875
