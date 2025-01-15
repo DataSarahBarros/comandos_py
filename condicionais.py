@@ -31,3 +31,17 @@ elif salario > 6000 and salario <= 15000:
     print('dev senior')
 else:
     print('project manager')
+
+
+# sem input 
+
+#     def concesionaria (valor):
+
+#     if valor >= 1000:
+#         print('carro barato')
+#     else:
+#         print('carro caro')
+
+# resultado = concesionaria(000)
+
+# print(resultado)
