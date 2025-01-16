@@ -17,6 +17,19 @@ while True:
     resposta = minha_funcao(valor1, valor2)
     print(valor1, '+', valor2, '=', resposta)
 
+# funcoes e condicoes juntos sem input
+
+    def concesionaria (valor):
+
+        if valor >= 1000:
+            print('carro barato')
+        else:
+            print('carro caro')
+
+    resultado = concesionaria(000)
+
+    print(resultado)
+
 #exemplo sem repeticoes
 
     valor1 = int(input('Digite um valor:'))
