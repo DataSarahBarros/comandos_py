@@ -1,17 +1,2 @@
-# criar um objeto, funcoes, metodos
-
-#  fucoes, condicoes e loop
-
-
-def concesionaria (valor):
-
-    if valor >= 1000:
-        print('carro barato')
-    else:
-        print('carro caro')
-
-resultado = concesionaria(000)
-
-print(resultado)
-
+# criar uma variável que vai armazenar três frutas, criar um loop de forma que ele vai mover o último item da lista para o primeiro
 
