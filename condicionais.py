@@ -33,15 +33,15 @@ else:
     print('project manager')
 
 
-# sem input 
+# funcoes e condicoes juntos sem input
 
-#     def concesionaria (valor):
+    def concesionaria (valor):
 
-#     if valor >= 1000:
-#         print('carro barato')
-#     else:
-#         print('carro caro')
+        if valor >= 1000:
+            print('carro barato')
+        else:
+            print('carro caro')
 
-# resultado = concesionaria(000)
+    resultado = concesionaria(000)
 
-# print(resultado)
+    print(resultado)
