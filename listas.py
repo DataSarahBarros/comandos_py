@@ -25,3 +25,9 @@ numeros = (10, 9, 8, 7, 6)
 print('total:', len(numeros))
 print('menor valor', min(numeros))
 print('maior valor', max(numeros))
+
+
+# para interroper o loop, vamos usar a função range, onde 'X' é uma variavel que servirá como contador dentro do loop, ela percorre a função range. A função range gera uma sequência de números com indice iguais a lista.
+
+for x in range(5):
+    print(x)
