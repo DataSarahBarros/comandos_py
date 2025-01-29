@@ -1,4 +1,4 @@
-# python comandos
+# Python comandos
 
 ‘mensagens em aspas simples’
 todos os comandos, são funções e (funções ficam dentro de parênteses)
