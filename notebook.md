@@ -1,5 +1,17 @@
-# Python comandos
+# Lógica de programação
+*Ciclo de desenvolvimento:* Idealização, Especificação de requisitos, Validação de soluções, Desenvolvimentos e testes e Implementação e entrega.
 
+*Algoritmos:* Algoritmo é uma série de instruções a serem seguidas, para resolver um problema.
+
+*Método 50's para montar um algoritmo:*
+Análise crítica do problema (tentar explicar o problema, pedindo mais informações e investigando, para compreender completamente o problema)
+
+*Perguntas:* Quais são os dados de entrada necessários? O que devo fazer com estes dados? Quais são as restrições deste problema? Qual é o resultado esperado? Qual é a sequência de passos a ser feita para chegar ao resultado esperado?
+
+*Conceitos obrigatórios para resolver problemas e criar algoritmos:*
+    **variáveis, condicionais, repetições e listas:**
+
+# Comandos:
 ‘mensagens em aspas simples’
 todos os comandos, são funções e (funções ficam dentro de parênteses)
 
@@ -107,16 +119,3 @@ frase.split() = split = dividir, dividir os espaços, cada palvra recebe indexa�
 
 Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] vídeo [lista 3] python [lista 4]** usa-se
 '-'.join(frase) = juntar as listas com o caractere '-'  *Curso-Em-vídeo-python*
-
-# Lógica de programação
-*Ciclo de desenvolvimento:* Idealização, Especificação de requisitos, Validação de soluções, Desenvolvimentos e testes e Implementação e entrega.
-
-*Algoritmos:* Algoritmo é uma série de instruções a serem seguidas, para resolver um problema.
-
-*Método 50's para montar um algoritmo:*
-Análise crítica do problema (tentar explicar o problema, pedindo mais informações e investigando, para compreender completamente o problema)
-
-*Perguntas:* Quais são os dados de entrada necessários? O que devo fazer com estes dados? Quais são as restrições deste problema? Qual é o resultado esperado? Qual é a sequência de passos a ser feita para chegar ao resultado esperado?
-
-*Conceitos obrigatórios para resolver problemas e criar algoritmos:*
-    **variáveis, condicionais, repetições e listas:**
