@@ -121,3 +121,4 @@ Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] víde
 '-'.join(frase) = juntar as listas com o caractere '-'  *Curso-Em-vídeo-python*
 
 # Manipulando Texto
+
