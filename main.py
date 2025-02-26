@@ -33,19 +33,28 @@
 
 #resolvendo o problema usando a função enumerate:
 
-def encontrar_indice (indice_frutas, indice_minhas_frutas): #definir minha função 'indice_frutas' o parametro da função é 'lista_frutas' (a lista a ser pesquisada) e 'minhas_frutas' (a str que quero encontrasr)
+# def encontrar_indice (indice_frutas, indice_minhas_frutas): #definir minha função 'indice_frutas' o parametro da função é 'lista_frutas' (a lista a ser pesquisada) e 'minhas_frutas' (a str que quero encontrasr)
 
-    for i, str in enumerate(indice_frutas): #Utiliza um loop for com enumerate para percorrer a lista, obtendo o índice (i) e o valor da string (string) em cada iteração.
-        if str == indice_minhas_frutas:
-            return i # retorna o valor da lista onde a função foi chamada
-        return -1 #se o valor da veriavel for diferete de -1
+#     for i, str in enumerate(indice_frutas): #Utiliza um loop for com enumerate para percorrer a lista, obtendo o índice (i) e o valor da string (string) em cada iteração.
+#         if str == indice_minhas_frutas:
+#             return i # retorna o valor da lista onde a função foi chamada
+#         return -1 #se o valor da veriavel for diferete de -1
 
-lista_frutas = ['banana', 'maçã', 'laranja', 'uva', 'abacaxi']
-minhas_frutas = 'laranja'
+# lista_frutas = ['banana', 'maçã', 'laranja', 'uva', 'abacaxi']
+# minhas_frutas = 'laranja'
 
-indice = encontrar_indice(lista_frutas, minhas_frutas)
+# indice = encontrar_indice(lista_frutas, minhas_frutas)
 
-if indice != -1: #o elemento foi encontrado
-  print(f"A fruta '{minhas_frutas}' foi encontrada no indice {indice}.")
+# if indice != -1: #o elemento foi encontrado
+#   print(f"A fruta '{minhas_frutas}' foi encontrada no indice {indice}.")
+# else:
+#   print(f"A fruta '{minhas_frutas}' não foi encontrada na lista.")
+
+nota1 = float(input('Digite a primeira nota:'))
+nota2 = float(input('Digite a segunda nota:'))
+media = (nota1 + nota2)/2
+print('A sua média foi {:.1f}'.format(media))
+if media >=6.0:
+    print('Você está acima da média, parabéns!')
 else:
-  print(f"A fruta '{minhas_frutas}' não foi encontrada na lista.")
+    print('Você está abaixo da média, estude mais!')
