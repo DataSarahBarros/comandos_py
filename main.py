@@ -50,11 +50,16 @@
 # else:
 #   print(f"A fruta '{minhas_frutas}' não foi encontrada na lista.")
 
-nota1 = float(input('Digite a primeira nota:'))
-nota2 = float(input('Digite a segunda nota:'))
-media = (nota1 + nota2)/2
-print('A sua média foi {:.1f}'.format(media))
-if media >=6.0:
-    print('Você está acima da média, parabéns!')
+
+# Desafio 28: Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
+
+from random import randint
+computador = randint(0,5) #computador vai percorrer essa lista
+print("-=-" * 20)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('-=-' * 20)
+jogador = int(input('Em que número eu pensei?'))
+if jogador == computador:
+    print('Parabéns você conseguiu me vencer')
 else:
-    print('Você está abaixo da média, estude mais!')
+    print('eu pensei no número {} e não no {}'.format(computador, jogador))
