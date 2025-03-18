@@ -120,5 +120,7 @@ frase.split() = split = dividir, dividir os espaços, cada palvra recebe indexa�
 Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] vídeo [lista 3] python [lista 4]** usa-se
 '-'.join(frase) = juntar as listas com o caractere '-'  *Curso-Em-vídeo-python*
 
-# Manipulando Texto
+# Condições
 
+tempo=int(input('Quantos anos tem seu carro?'))
+print('carro novo' if tempo<=3 else 'carro velho')
