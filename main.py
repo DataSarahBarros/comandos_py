@@ -51,15 +51,10 @@
 #   print(f"A fruta '{minhas_frutas}' não foi encontrada na lista.")
 
 
-# Desafio 28: Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
+# n = int(input('Digite um número qualquer:'))
+# resultado = n % 2
+# if resultado == 0:
+#     print('O número {} é par'.format(n))
+# else:
+#     print('O número {} é ímpar'.format(n))
 
-from random import randint
-computador = randint(0,5) #computador vai percorrer essa lista
-print("-=-" * 20)
-print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
-print('-=-' * 20)
-jogador = int(input('Em que número eu pensei?'))
-if jogador == computador:
-    print('Parabéns você conseguiu me vencer')
-else:
-    print('eu pensei no número {} e não no {}'.format(computador, jogador))
