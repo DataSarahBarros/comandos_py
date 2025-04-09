@@ -45,3 +45,38 @@ else:
     resultado = concesionaria(000)
 
     print(resultado)
+
+
+from random import randint #biblioteca random gera números pseudoaleatórios e o metodo randint gera números inteiros aleatórios
+from time import sleep #biblioteca time fornce funções relacionadas ao tempo e o método sleep pausa a excuçãoo do programa por um determinado número de segundos
+computador = randint(0,5) #computador vai percorrer essa lista
+print("-=-" * 20)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar...') #vai sortear um número
+print('-=-' * 20)
+jogador = int(input('Em que número eu pensei?')) #jogador vai adivinhar
+print('Pensando...')
+sleep(3)
+if jogador == computador:
+    print('Parabéns você conseguiu me vencer')
+else:
+    print('eu pensei no número {} e não no {}'.format(computador, jogador))
+
+
+# condição simples
+
+velocidade = float(input('Qual a velocidade?'))
+if velocidade > 80:
+    print('Multado você excedeu o limite de velocidade')
+    multa = (velocidade - 80) * 7
+    print('Você deve pagar um multa de R${:.2f}'.format(multa))
+print('Tenha um bom dia! Dirija com segurança!')
+
+
+# exercícios
+
+n = int(input('Digite um número qualquer:'))
+resultado = n % 2
+if resultado == 0:
+    print('O número {} é par'.format(n))
+else:
+    print('O número {} é ímpar'.format(n))
