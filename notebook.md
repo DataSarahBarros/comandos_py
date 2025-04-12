@@ -124,3 +124,106 @@ Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] víde
 
 tempo=int(input('Quantos anos tem seu carro?'))
 print('carro novo' if tempo<=3 else 'carro velho')
+
+# Cores no Terminal
+
+\ANSI escape sequence 
+\033[cód style;cód text;cód back m
+
+style: estilo da fonte
+0: sem estilo
+1: negrito
+4: sublinhado
+7: inverter as configurações da letra pro fundo ou do fundo pra letra
+
+text: cor do texto
+30: branco
+31: vermelho
+32: verde
+33: amarelo
+34: azul
+35: roxo
+36: ciano
+37: cinza
+
+back cor do fundo
+40: branco
+41: vermelho
+42: verde
+43: amarelo
+44: azul
+45: roxo
+46: ciano
+47: cinza
+
+
+# Tabela de Precedência de Operadores em Python (da maior para a menor):
+
+# Parênteses ()
+
+# Exponenciação ** é ao quadrado ou ao cubo 
+
+# Operadores Unários +, -, ~:
++: Positivo unário (não altera o valor).
+-: Negativo unário (inverte o sinal).
+~: Negação bit a bit.
+
+# Multiplicação *, Divisão /, Divisão Inteira //, Módulo %:
+*: Multiplicação.
+/: Divisão.
+//: Divisão inteira (retorna o quociente inteiro).
+%: Módulo (retorna o resto da divisão).
+
+# Adição +, Subtração -:
++: Adição.
+-: Subtração.
+
+# Operadores de Deslocamento de Bits <<, >>:
+<<: Deslocamento de bits para a esquerda.
+>>: Deslocamento de bits para a direita.
+
+# Operadores Bit a Bit &, ^, |:
+&: AND bit a bit.
+^: XOR bit a bit.
+|: OR bit a bit.
+
+# Operadores de Comparação ==, !=, >, <, >=, <=:
+==: Igual a.
+!=: Diferente de.
+>: Maior que.
+<: Menor que.
+>=: Maior ou igual a.
+<=: Menor ou igual a.
+
+# Operadores de Identidade is, is not:
+is: Verifica se duas variáveis referenciam o mesmo objeto.
+is not: Verifica se duas variáveis não referenciam o mesmo objeto.
+
+# Operadores de Associação in, not in:
+in: Verifica se um valor está presente em uma sequência.
+not in: Verifica se um valor não está presente em uma sequência.
+
+# Operador Lógico not:
+Negação lógica.
+
+# Operador Lógico and:
+AND lógico.
+
+# Operador Lógico or:
+OR lógico.
+
+# Operador de Atribuição =:
+Atribui um valor a uma variável.
+
+
+
+
+**Anotações sobre Banco de Dados**
+# Modelo Relacional
+Entidade é como um conteiner: Conteiner de Produtos contem dados sobre produtos, esses dados dos produtos são atributos dos produtos da entidade
+Chave primaria relaciona as entidades (exemplo: id produto <> id cliente) venda é o relacionamento entre a entidade produto e a entidade cliente == DER (Diagrama Entidade Relacionamento)
+
+pause: 11:12
+
+# Chaves estrangeiras e JOIN
+# INNER JOIN 
