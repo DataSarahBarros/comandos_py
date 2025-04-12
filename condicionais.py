@@ -80,3 +80,55 @@ if resultado == 0:
     print('O número {} é par'.format(n))
 else:
     print('O número {} é ímpar'.format(n))
+
+
+# exercícios
+distancia = float(input('Qual a distância da sua viagem? '))
+if distancia <= 200:
+    print('Você irá pagar {} na passsagem.'.format(distancia * 0.50))
+else:
+    print('Você irá pagar {} em sua passagem.'.format(distancia * 0.45))
+
+
+# exercícios
+from datetime import date
+
+ano = int(input('Que ano quer analisar? Coloque 0 para analisar o ano atual: '))
+
+if ano == 0:
+    ano = date.today().year
+
+if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+    print(f'O ano {ano} é bissexto.')
+else:
+    print(f'O ano {ano} não é bissexto.')
+
+# exercícios
+a = float(input('Primeiro valor:'))
+b = float(input('Segundo valor:'))
+c = float(input('Terceiro valor:'))
+# verificando os menores
+if (a<b) and (a<c):
+    menor = a
+if (b<a) and (b<c):
+    menor = b
+if (c<b) and (c<a):
+    menor = c
+# verificando os maiores
+if (a>b) and (a>c):
+    maior = a
+if (b>c) and (b>a):
+    maior = b
+if (c>a) and (c>b):
+    maior = c
+print('O menor valor foi {}'.format(menor))
+print('O maior valor foi {}'.format(maior))
+
+
+# exercícios
+salario = float(input('Qual o sálario do funcionário?'))
+if salario <=1.250:
+    novo = salario * 0.15
+else:
+    novo = salario * 0.10
+print('Quem ganhava R${:;2f} passa a ganhar R${.:2f} agora'.format(salario, novo))
