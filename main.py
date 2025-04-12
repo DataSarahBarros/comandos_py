@@ -59,4 +59,19 @@
 #     print('O número {} é ímpar'.format(n))
 
 
-print('\033[36;47mHello Word')
+lista = [4,6,8,9,12,14,13,32,92,88,66,7,55,21,19,28]
+
+def bubble_sort(arr):
+    n = len(arr) #Calcula o número de elementos na lista e armazena na variável "n"
+
+    # para cada elemento i do array
+    for i in range(n): # Este é o primeiro loop "for", que itera por toda a lista. A variável "i" representa o índice atual
+
+        # para cada elemento j do array
+        for j in range(0, n-i-1):
+
+            # se elemento i for maior que elemento j
+            arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+print (bubble_sort(lista))
