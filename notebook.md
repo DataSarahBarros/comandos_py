@@ -1,3 +1,13 @@
+**Anotações sobre Banco de Dados**
+# Modelo Relacional
+Entidade é como um conteiner: Conteiner de Produtos contem dados sobre produtos, esses dados dos produtos são atributos dos produtos da entidade
+Chave primaria relaciona as entidades (exemplo: id produto <> id cliente) venda é o relacionamento entre a entidade produto e a entidade cliente == DER (Diagrama Entidade Relacionamento)
+
+pause: 11:12
+
+# Chaves estrangeiras e JOIN
+# INNER JOIN 
+
 # Lógica de programação
 *Ciclo de desenvolvimento:* Idealização, Especificação de requisitos, Validação de soluções, Desenvolvimentos e testes e Implementação e entrega.
 
@@ -125,7 +135,9 @@ Quando se tem palavras separados em listas: **Curso [lista 1] em [lista 2] víde
 tempo=int(input('Quantos anos tem seu carro?'))
 print('carro novo' if tempo<=3 else 'carro velho')
 
-# Cores no Terminal
+# Cores no Terminal 
+
+print('\033[36;47mHello Word')
 
 \ANSI escape sequence 
 \033[cód style;cód text;cód back m
@@ -218,14 +230,33 @@ Atribui um valor a uma variável.
 
 
 
-**Anotações sobre Banco de Dados**
-# Modelo Relacional
-Entidade é como um conteiner: Conteiner de Produtos contem dados sobre produtos, esses dados dos produtos são atributos dos produtos da entidade
-Chave primaria relaciona as entidades (exemplo: id produto <> id cliente) venda é o relacionamento entre a entidade produto e a entidade cliente == DER (Diagrama Entidade Relacionamento)
+**Python para análise de dados e data science**
 
-pause: 11:12
+pseudocódigo 1 - calcular a área de um paralelograma
 
-# Chaves estrangeiras e JOIN
-# INNER JOIN 
+print('Bem-vindo ao calculador de área de paralelograma')
+base = float(input('Insira o comprimento da base: '))
+altura = float(input('Insira o tamanho da altura: '))
+area = base * altura
+print('Com uma base de {} e uma alturea de {} o paralelograma tem {} de área.'.format(base,altura,area))
 
- 
+pseudocódigo 2 - calculadora simples
+
+print('Bem-vindo à calculadora!')
+n1 = float(input('Insira o primeiro valor: '))
+n2 = float(input('Insira o segundo valor: '))
+operador = input('Escolha um operador: + - * /: ')
+
+if operador == '+':
+    resultado = n1 + n2 
+if operador == '-':
+    resultado = n1 - n2
+if operador == '*':
+    resultado = n1 * n2
+if operador == '/':
+    resultado = n1 / n2
+
+print('Resposta:{}'.format(resultado))
+
+pseudocódigo 3 -   algoritmo bubble sort
+
