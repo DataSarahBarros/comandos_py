@@ -227,3 +227,5 @@ pause: 11:12
 
 # Chaves estrangeiras e JOIN
 # INNER JOIN 
+
+ 
