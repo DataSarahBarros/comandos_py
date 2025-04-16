@@ -52,3 +52,29 @@
 
 
 #desafio 29: Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$ 7,00 por cada km acima do limite.
+
+# n = int(input('Digite um número qualquer:'))
+# resultado = n % 2
+# if resultado == 0:
+#     print('O número {} é par'.format(n))
+# else:
+#     print('O número {} é ímpar'.format(n))
+
+
+# lista = [4,6,8,9,12,14,13,32,92,88,66,7,55,21,19,28]
+
+# def bubble_sort(arr):
+#     n = len(arr) #Calcula o número de elementos na lista e armazena na variável "n"
+
+#     # para cada elemento i do array
+#     for i in range(n): # Este é o primeiro loop "for", que itera por toda a lista. A variável "i" representa o índice atual
+
+#         # para cada elemento j do array
+#         for j in range(0, n-i-1):
+
+#             # se elemento i for maior que elemento j
+#             arr[j], arr[j + 1] = arr[j + 1], arr[j]
+#     return arr
+
+# print (bubble_sort(lista))
+# >>>>>>> 548d7c529e0ac95758618de1debf4b07812eb7ad
